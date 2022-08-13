@@ -23,3 +23,6 @@ if(a>b){
 else if(b>a){
     document.querySelector("h1").textContent = "Player 2 Wins!!!";
 }
+else{
+    document.querySelector("h1").textContent = "Its a Tie!";
+}
